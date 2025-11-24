@@ -12,3 +12,9 @@ wheels/
 *.lock
 resources/vectorstore
 .env
+
+
+.DS_Store
+chroma_db/
+vectorstore/
+logs/

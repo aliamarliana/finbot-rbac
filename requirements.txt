@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+streamlit
+python-dotenv
+requests
+pandas
+tqdm
+chromadb
+sentence-transformers
+python-multipart
+huggingface-hub
