@@ -52,6 +52,7 @@ Everything is managed safely using metadata filtering and LangChain retrievers.
 
 # 🧱 Architecture
 
+```text
 ┌────────────┐
 │    User    │
 └──────┬─────┘
@@ -78,6 +79,7 @@ Everything is managed safely using metadata filtering and LangChain retrievers.
        │
        └──────────────►  ChromaDB Vector Store
                         (Embeddings + Metadata)
+```
 
 
 ### Components:
