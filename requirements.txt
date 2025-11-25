@@ -4,10 +4,10 @@ streamlit
 python-dotenv
 requests
 pandas
+numpy
 tqdm
 chromadb
 sentence-transformers
 langchain
 huggingface-hub
 python-multipart
-json
