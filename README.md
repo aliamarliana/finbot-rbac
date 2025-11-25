@@ -1,6 +1,6 @@
 # Role-Based RAG Chatbot for FinTech — Codebasics GenAI Project Challenge
 
-This project is a full, production-ready implementation of a **Role-Based Access Control (RBAC) RAG Chatbot**, built for the [[Codebasics GenAI Resume Project Challenge](https://codebasics.io/challenges/codebasics-gen-ai-data-science-resume-project-challenge/19)].
+This project is a full, production-ready implementation of a **Role-Based Access Control (RBAC) RAG Chatbot**, built for the [Codebasics GenAI Resume Project Challenge(https://codebasics.io/challenges/codebasics-gen-ai-data-science-resume-project-challenge/19)].
 
 The system solves a real-world FinTech problem:  
 Different departments (Finance, HR, Marketing, Engineering, Executives) cannot quickly access the right information, causing delays and inefficiencies.  
@@ -20,11 +20,11 @@ FinSolve Technologies faces:
 
 They need a chatbot that:
 
-### ✔ understands natural language  
-### ✔ retrieves information securely  
-### ✔ limits answers based on user roles  
-### ✔ cites source documents  
-### ✔ provides accurate, context-aware responses  
+✅ understands natural language  
+✅ retrieves information securely  
+✅ limits answers based on user roles  
+✅ cites source documents  
+✅ provides accurate, context-aware responses  
 
 This project delivers exactly that.
 
