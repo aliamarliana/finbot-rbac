@@ -20,11 +20,11 @@ FinSolve Technologies faces:
 
 They need a chatbot that:
 
-### ✔ understands natural language  
-### ✔ retrieves information securely  
-### ✔ limits answers based on user roles  
-### ✔ cites source documents  
-### ✔ provides accurate, context-aware responses  
+✅ understands natural language  
+✅ retrieves information securely  
+✅ limits answers based on user roles  
+✅ cites source documents  
+✅ provides accurate, context-aware responses  
 
 This project delivers exactly that.
 
@@ -52,7 +52,35 @@ Everything is managed safely using metadata filtering and LangChain retrievers.
 
 # 🧱 Architecture
 
-User → Streamlit UI → FastAPI Backend → RAG Pipeline → HuggingFace LLM
+```text
+┌────────────┐
+│    User    │
+└──────┬─────┘
+       │
+       ▼
+┌────────────────────┐
+│    Streamlit UI    │
+└──────┬─────────────┘
+       │ HTTP Request
+       ▼
+┌────────────────────┐
+│   FastAPI Backend  │
+│ (Auth + RBAC + API)│
+└──────┬─────────────┘
+       │ Calls RAG
+       ▼
+┌────────────────────┐
+│   RAG Pipeline     │
+│ (Retriever + LLM)  │
+└──────┬─────────────┘
+       │
+       ├──────────────►  HuggingFace LLM  
+       │                (Mistral-7B Instruct)
+       │
+       └──────────────►  ChromaDB Vector Store
+                        (Embeddings + Metadata)
+```
+
 
 ### Components:
 
