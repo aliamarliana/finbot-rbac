@@ -189,6 +189,7 @@ The UI is designed to be clean, simple, and intuitive, allowing users to authent
 
 ### 🏠 Main Chat Interface (with Sidebar)
 This is the primary screen where authenticated users interact with the chatbot, ask questions, and view generated answers.
+
 <img width="591" height="591" alt="image" src="https://github.com/user-attachments/assets/27156529-27b6-4f74-917b-6026c3d90601" />
 
 ### 🔐 Sidebar — User Login Panel
