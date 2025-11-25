@@ -195,4 +195,5 @@ This is the primary screen where authenticated users interact with the chatbot, 
 
 Users authenticate here with their username and password.
 After login, Role-Based Access Control (RBAC) automatically restricts or grants access to department-specific information.
+
 <img width="582" height="535" alt="image" src="https://github.com/user-attachments/assets/aa502d86-98ed-4a9c-b424-d6d4d835556a" />
