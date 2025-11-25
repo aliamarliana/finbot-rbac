@@ -179,3 +179,20 @@ This repository demonstrates my ability to:
 ⚡ Implement secure information systems  
 ⚡ Architect a complete RAG pipeline  
 ⚡ Deploy a production-ready AI microservice  
+
+---
+
+# 📸 User Interface Preview
+
+Below is a quick look at the front-end experience of the Role-Based RAG Chatbot.
+The UI is designed to be clean, simple, and intuitive, allowing users to authenticate, select their role, and chat seamlessly with the system.
+
+### 🏠 Main Chat Interface (with Sidebar)
+This is the primary screen where authenticated users interact with the chatbot, ask questions, and view generated answers.
+<img width="591" height="591" alt="image" src="https://github.com/user-attachments/assets/27156529-27b6-4f74-917b-6026c3d90601" />
+
+### 🔐 Sidebar — User Login Panel
+
+Users authenticate here with their username and password.
+After login, Role-Based Access Control (RBAC) automatically restricts or grants access to department-specific information.
+<img width="582" height="535" alt="image" src="https://github.com/user-attachments/assets/aa502d86-98ed-4a9c-b424-d6d4d835556a" />
