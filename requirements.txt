@@ -7,5 +7,7 @@ pandas
 tqdm
 chromadb
 sentence-transformers
-python-multipart
+langchain
 huggingface-hub
+python-multipart
+json

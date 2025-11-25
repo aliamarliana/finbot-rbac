@@ -1,20 +1,53 @@
-# Python-generated files
+# Python
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.pyc
+*.pyo
+*.pyd
 
-# Virtual environments
-.venv
-.idea/ 
-*.lock
-resources/vectorstore
+# Virtual environment
+venv/
 .env
+*.env
 
+# IDE directories
+.vscode/
+.idea/
 
+# OS files
 .DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Chroma DB persistence
 chroma_db/
-vectorstore/
+index/
+*.sqlite3
+*.db
+
+# HuggingFace cache
+~/.cache/huggingface/
+hf_cache/
+huggingface/
+
+# Logs
 logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build outputs
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Backup files
+*.bak
+*.tmp
+*.swp
