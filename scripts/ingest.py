@@ -41,7 +41,7 @@ def build_docs_for_vectorstore(documents):
     return out
 
 if __name__ == "__main__":
-    print("Starting Day-3 ingestion process (LangChain + Chroma) ...")
+    print("Starting ingestion process (LangChain + Chroma) ...")
     docs = discover_documents()
     print(f"Discovered {len(docs)} source files.")
     vs = VectorStore()

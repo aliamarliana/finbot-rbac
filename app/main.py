@@ -25,7 +25,7 @@ logger = logging.getLogger("finbot")
 # -------------------------
 # App & Auth
 # -------------------------
-app = FastAPI(title="FinSolve RBAC Chatbot - Day 4 (Production-ready)")
+app = FastAPI(title="FinSolve RBAC Chatbot - Production-ready")
 
 security = HTTPBasic()
 
@@ -63,7 +63,7 @@ class ChatRequest(BaseModel):
 # -------------------------
 @app.get("/")
 def root():
-    return {"message": "FinSolve RBAC Chatbot - Day 4 (Production-ready)"}
+    return {"message": "FinSolve RBAC Chatbot - Production-ready"}
 
 @app.get("/health")
 def health():
