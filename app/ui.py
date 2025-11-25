@@ -9,7 +9,7 @@ from typing import List
 # -------------------------
 API_BASE = st.secrets.get("API_BASE", "http://127.0.0.1:8000")  # override in HF Space secrets if backend hosted externally
 CHAT_ENDPOINT = f"{API_BASE}/chat"
-LOGIN_ENDPOINT = f"{API_BASE}/"  # we reuse Basic Auth via /chat
+LOGIN_ENDPOINT = f"{API_BASE}/"  # reuse Basic Auth via /chat
 
 # -------------------------
 # Utils
