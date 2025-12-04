@@ -192,9 +192,49 @@ This is the primary screen where authenticated users interact with the chatbot, 
 
 <img width="591" height="591" alt="image" src="https://github.com/user-attachments/assets/27156529-27b6-4f74-917b-6026c3d90601" />
 
+
 ### 🔐 Sidebar — User Login Panel
 
 Users authenticate here with their username and password.
 After login, Role-Based Access Control (RBAC) automatically restricts or grants access to department-specific information.
 
 <img width="582" height="535" alt="image" src="https://github.com/user-attachments/assets/aa502d86-98ed-4a9c-b424-d6d4d835556a" />
+
+---
+
+# 💻🚀 Run the Project Locally
+
+### 1. Activate virtual environment
+```bash
+.venv\Scripts\activate
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Add .env file in the project root with your HuggingFace token and models:
+```bash
+HF_API_TOKEN=hf_xxxxxxxxxxxxxxxxxxxxx
+LLM_MODEL=mistralai/Mistral-7B-Instruct-v0.3
+EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+CHROMA_DB_DIR=./chroma_db
+```
+
+### 4. Ingest dataset (run only once unless dataset changes)
+```bash
+python scripts/ingest.py
+```
+
+### 5. Run backend (use command prompt terminal)
+```bash
+uvicorn app.main:app --reload
+```
+
+### 6. Run UI (use another command prompt terminal)
+```bash
+streamlit run app/ui.py
+```
+
+### 7. Open browser and login
